@@ -64,7 +64,7 @@ class Calculator {
         this.previousOperand = '';
 
         // CHECK ID 0: The Special 31 Check
-        if (String(computation).includes('31') && computation !== 31) {
+        if (String(computation).includes('31')) {
             triggerLaughReaction();
         }
     }
